@@ -1,0 +1,80 @@
+.sky {
+    height: auto;
+    background-color: #36384C;
+    padding-top: 3px;
+}
+.house {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.house-roof {
+    z-index: 2;
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
+    border-bottom: 150px solid #D9A6A0;
+}
+
+.house-flue {
+    margin-top: -130px;
+    margin-left: 180px;
+    width: 65px;
+    height: 130px;
+    background-color: #4A2E34;
+}
+
+.house-body {
+    height: 350px;
+    width: 350px;
+    background-color: #6B4E53;
+}
+
+.house-body-window {
+    position: relative;
+    margin-left: 180px;
+    margin-top: 60px;
+    height: 110px;
+    width: 110px;
+    background-color: #F0E5D8;
+}
+
+.house-body-window-inner-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.house-body-window-inner-border-vertiahal {
+    position: absolute;
+    width: 5px; 
+    height: 100%;
+    background-color: #613A43; 
+}
+
+.house-body-window-inner-border-horizontal {
+    position: absolute;
+    width: 100%;
+    height: 5px; 
+    background-color: #613A43; 
+}
+
+.house-body-door {
+    margin-top: 20px;
+    width: 100px;
+    height: 160px;
+    margin-left: 30px;
+    background-color: #4A2E34;
+}
+.grass {
+    background-color: #849974;
+
+    height: 120px;
+}
+
